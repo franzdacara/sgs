@@ -506,7 +506,7 @@ body {
 \*-----------------------------------*/
 
 .about {
-  background-color: var(--section-padding);
+  background-color: var(--white-2);
 }
 
 .about-banner {
@@ -1162,7 +1162,7 @@ textarea.input-field {
   }
 
   .contact-item {
-    min-width: calc(33.33% - 16.66px);
+    min-width: calc(32.33% - 16.66px);
   }
 
   .contact-card {
