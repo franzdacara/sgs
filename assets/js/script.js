@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * add event on element
@@ -12,9 +12,7 @@ const addEventOnElem = function (elem, type, callback) {
   } else {
     elem.addEventListener(type, callback);
   }
-}
-
-
+};
 
 /**
  * toggle navbar
@@ -27,18 +25,16 @@ const navToggler = document.querySelector("[data-nav-toggler]");
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   navToggler.classList.toggle("active");
-}
+};
 
 addEventOnElem(navToggler, "click", toggleNavbar);
 
 const closeNavbar = function () {
   navbar.classList.remove("active");
   navToggler.classList.remove("active");
-}
+};
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
-
-
 
 /**
  * header active

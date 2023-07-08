@@ -250,8 +250,8 @@ body {
 }
 
 .grid-list {
-  display: grid;
-  gap: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .img-holder {
@@ -403,9 +403,9 @@ body {
   background-color: var(--white-2);
 }
 
-.service .section-text {
+/* .service .section-text {
   margin-block: 5px 35px;
-}
+} */
 
 .service-card {
   background-color: var(--white-1);
